@@ -35,8 +35,8 @@ angular
       .state('home', {
         url: '/',
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
+        //controller: 'MainCtrl',
+        //controllerAs: 'main'
       })
       .state('about', {
         url: '/about',
